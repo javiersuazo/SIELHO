@@ -1,0 +1,21 @@
+<%= form_tag("/solicitud/#{@solicitud}/expediente/#{@expediente}/justificarEstado",:method=>"post") do%>
+	
+		<label>Estado : </label>
+		<select name="Estado">
+			<%@estados.each do |e|%>
+				<%=raw("<option value='#{e.id}'>#{e.nombre }</option> ")%>
+			<%end%>
+		</select>
+		<label>Ley/Acuerdo : </label>
+		<select name="ley">
+			<%@leyes.each do |e|%>
+				<%=raw("<option value='#{e.id}'>Ley: #{e.noLey}, Acuerdo: #{e.noAcuerdo}</option> ")%>
+			<%end%>
+		</select>
+	</br></br>
+
+
+	<%= text_area_tag(:descripcion, "Escriba aqui la descripcion del cambio", :size => "100x6") %>	
+	 <%=submit_tag("Cambiar estado")%>	
+<%end%>
+

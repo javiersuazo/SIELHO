@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SIELHO</title>
+  <%= stylesheet_link_tag :all %>
+
+  <%= javascript_include_tag :defaults %>
+ <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <%= csrf_meta_tag %>
+  <link rel="stylesheet" href="/stylesheets/style.css" type="text/css"/>
+<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+<script src="/javascripts/video.js" type="text/javascript" charset="utf-8"></script>
+ <link rel="stylesheet" type="text/css" href="/stylesheets/jquery.ad-gallery.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript" src="/javascripts/jquery.ad-gallery.js"></script>
+ <link href='http://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+  <script type="text/javascript">
+    VideoJS.setupAllWhenReady();
+
+  </script>
+  <link rel="stylesheet" type="text/css" media="all" href="/jsDatePick_ltr.min.css" />
+  <script type="text/javascript" src="/jsDatePick.min.1.3.js"></script>
+  <!-- Include the VideoJS Stylesheet -->
+  <link rel="stylesheet" href="/stylesheets/video-js.css" type="text/css" media="screen" title="Video JS">
+
+<script type="text/javascript">
+	window.onload = function(){
+		new JsDatePick({
+			useMode:2,
+			target:"inputField2",
+			
+		
+			yearsRange:[2011,2020],
+			limitToToday:true,
+			cellColorScheme:"beige"
+		});
+
+	    new JsDatePick({
+			useMode:2,
+			target:"inputField",
+			
+		yearsRange:[2011,2020],
+			limitToToday:true,
+			cellColorScheme:"beige"
+		});
+	};
+</script>
+
+
+
+</head>
+<body>
+
+  <div class = "menufinal">
+        <ul id="menu">
+            <li class="logo">
+                <a href="/"><img style="float:left;" alt="" src="/images/menu_left.png"/></a>
+                
+            </li>
+			<% unless user_signed_in? %>    
+            <li><a href="#">Realizar Solicitud de Informacion</a>
+                <ul id="help">
+ 
+	               <li>
+                        <img class="corner_inset_left" alt="" src="/images/corner_inset_left.png"/>
+                          <%= link_to "Formulario para Persona Natural",solicitud_natural_path %>
+                        <img class="corner_inset_right" alt="" src="/images/corner_inset_right.png"/>
+                    </li>
+
+                    <li>
+                          <%= link_to "Formulario para Persona Juridica",solicitud_juridica_path %>
+					</li>
+                    <li class="last">
+                        <img class="corner_left" alt="" src="/images/corner_left.png"/>
+                        <img class="middle" alt="" src="/images/dot.gif"/>
+                        <img class="corner_right" alt="" src="/images/corner_right.png"/>
+                    </li>
+		   
+                </ul>
+            </li>
+
+
+	    <li><%=link_to "Login",   new_user_session_path%>
+		
+
+
+	    </li>
+			<%else%>
+			<li>		<%if current_user.rol.nombre.eql? "admin"%>
+						<%="Bienvenido #{Administrador.find_by_usuario_id(current_user.id).nombre }" %>
+					<%end%>
+					<%if current_user.rol.nombre.eql? "oip"%>
+						<%="Bienvenido #{Oip.find_by_usuario_id(current_user.id).nombre }, #{Institucion.find(Oip.find_by_usuario_id(current_user.id).institucion_id).nombre}" %>
+
+					<%end%>
+					<%if current_user.rol.nombre.eql? "enlace"%>
+						<%="Bienvenido #{Enlace.find_by_usuario_id(current_user.id).nombre }, #{Institucion.find(Enlace.find_by_usuario_id(current_user.id).institucion_id).nombre}, #{Departamento.find(Enlace.find_by_usuario_id(current_user.id).departamento_id).nombre }" %>
+
+					<%end%> </li>
+			<%end%>
+			
+
+
+			
+        </ul>
+        <img style="float:left;" alt="" src="/images/menu_right.png"/>
+    </div>
+    <div style="float:none; clear:both;"></div>
+
+    <%if notice.nil? && alert.nil?%>
+    <br/>
+    <%end%>
+    
+    <%unless notice.nil?%> 
+    <div class = "mensajes">
+    <p class="notice"><%= notice %></p>
+    </div>
+    <%end%>
+
+    <%unless alert.nil?%> 
+    <div class = "mensajes2">
+    <p class="alert"><%= alert %></p>
+    </div>
+    <%end%>
+    <%unless user_signed_in?%>
+
+<%end%>
+<%if user_signed_in? and !current_user.activo %>
+	<div class= "mensajes2">
+	<p> Por los momentos su usuario no se encuentra habilitado para trabajar en el sistema.</p>
+	<p>Favor contactarse con un oficial de informacion de su institucion
+o con el administrador del sistema</p>
+</div>
+<%end%>
+      <div class = "cuerpoDoc">
+	<%= yield %>
+	<br/><br/> 
+     </div>
+  
+					<%if user_signed_in? %>
+	<div id="dockContainer"> 
+		<div id="dockWrapper"> 
+			<div class="cap left"></div> 
+				<ul class="osx-dock">
+					<% if user_signed_in? and current_user.activo %>	
+					
+
+					<li class="active"> 
+						<span><p>Inicio</p></span> 
+						<a href="/" title="Home"><img src="/images/home.png" /></a> 
+					</li>
+
+
+					<%unless current_user.rol.nombre.eql? "enlace"%>
+					 <%if current_user.rol.nombre.eql? "admin" %> 
+
+						<li class="active"> 
+						<span><p>Crear OIP</p></span> 
+					<%elsif current_user.rol.nombre.eql? "oip" %>
+						<li class="active"> 
+						<span><p>Enlace</p></span>
+					<%end%>
+                        <%= link_to image_tag("/images/add-user.png"), new_user_path %>
+					</li>
+						<li class="active"> 
+						<span><p>Directorio</p></span> 
+                        <%= link_to image_tag("/images/directorio.png"), directorio_path %>
+						</li>
+
+
+					<%end%>
+			
+					<%if current_user.rol.nombre.eql? "admin" %>
+						<li class="active"> 
+						<span><p>Institucion</p></span> 
+						<a href="/parametrizacion/institucion/new" title=""><img src="/images/edificio.png" /></a> 
+						</li>
+				
+						<li class="active"> 
+						<span><p>Ocupacion</p></span> 
+						<a href="/parametrizacion/ocupacion/new" title=""><img src="/images/ocupacion.png" /></a> 
+						</li>
+						
+						<li class="active"> 
+						<span><p>Estados</p></span> 
+						<a href="/parametrizacion/estado/new" title=""><img src="/images/estado.png" /></a> 
+						</li>
+					
+						<li class="active"> 
+						<span><p>Documentos</p></span> 
+						<a href="/parametrizacion/tipodocumento/new" title=""><img src="/images/doc1.png" /></a> 
+						</li>
+						
+						<li class="active"> 
+						<span><p>Leyes</p></span> 
+						<a href="/parametrizacion/leyacuerdo/new" title=""><img src="/images/leyes.gif" /></a> 
+						</li>
+						
+						<li class="active"> 
+						<span><p>Plazo</p></span> 
+                          <%= link_to image_tag("/images/clock.png"),new_plazo_path %>
+						</li>
+
+					<%end%>
+					
+					<%if current_user.rol.nombre.eql? "oip" %>
+						<li class="active"> 
+						<span><p>Departamento</p></span> 
+						<a href="/parametrizacion/departamento/new" title=""><img src="/images/departamento.png" /></a> 
+						</li>
+					<%end%>
+
+	
+						<li class="active"> 
+						<span> <p>Contraseña</p></span> 
+                          <%= link_to image_tag("/images/login.png"), edit_user_registration_path %>
+						
+						</li>
+
+	<% end %>
+					<%if current_user.activo%>
+					
+						<%unless current_user.rol.nombre.eql? "enlace"%>
+						<li class="active"> 
+						<span> <p>Mensaje</p></span> 
+                          <%= link_to image_tag("/images/mensaje.png"), mensaje_nuevo_path(current_user) %>
+						
+						</li>
+						<%end%>
+						<li class="active"> 
+						<span> <p>Pendiente</p></span> 
+                          <%= link_to image_tag("/images/expediente.jpg"), solicitudes_pendientes_path(current_user) %>
+						
+						</li>
+
+
+
+
+
+					<li class="active">
+                           <span><p>Inbox</p></span>
+						<%if Mensaje.HasMensajeNoLeido(current_user.id) %>
+                          <%= link_to image_tag("/images/inbox_full.png"), inbox_path(current_user) %>
+						<% else%>
+                          <%= link_to image_tag("/images/inbox_empty.png"), inbox_path(current_user) %>
+						<% end%>	
+                     </li>
+					<% end%>
+			   
+			<li class="active">
+
+				<span><p>Buscar</p></span>
+				<%= link_to image_tag("/images/search.png"), buscar_path%>
+			</li>
+
+			<li class="active">
+
+				<span><p>Estadisticas</p></span>
+				<%= link_to image_tag("/images/stadisticas.png"), estadisticas_index_path%>
+			</li>
+
+			<li class="active">
+                           <span><p>Logout</p></span>
+                          <%= link_to image_tag("/images/logout.png"), destroy_user_session_path %>
+							
+                     	  </li>
+
+				</ul>
+		</div>
+	</div>
+
+					<%end%>
+</body>
+</html>

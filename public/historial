@@ -1,0 +1,464 @@
+2011-12-08T14:02:26-08:00	1	admin	tipo_documento	nombre	N/A	Identidad	creacion de tipoDocumento
+2011-12-08T14:02:26-08:00	1	admin	regla	nombre	N/A	####-####-#####	creacion de tipoDocumento
+2011-12-08T14:02:26-08:00	1	admin	tipo_persona	nombre	N/A	1	creacion de tipoDocumento
+2011-12-08T14:02:26-08:00	1	admin	tipo_documento	fechaCrear	N/A	2011-12-08 22:02:26 UTC	creacion de tipoDocumento
+2011-12-08T14:02:26-08:00	1	admin	tipo_documento	fechaMod	N/A	2011-12-08 22:02:26 UTC	creacion de tipoDocumento
+2011-12-08T14:02:26-08:00	1	admin	tipo_documento	usuarioRes	N/A	1	creacion de tipoDocumento
+2011-12-08T14:02:26-08:00	1	admin	tipo_documento	usuarioMod	N/A	1	creacion de tipoDocumento
+2011-12-08T14:02:57-08:00	1	admin	leyacuerdo	descripcion	N/A	blah	creacion de leyacuerdo
+2011-12-08T14:02:57-08:00	1	admin	leyacuerdo	noLEY	N/A	01-800	creacion de leyacuerdo
+2011-12-08T14:02:57-08:00	1	admin	leyacuerdo	noAcuerdo	N/A	001-2010	creacion de leyacuerdo
+2011-12-08T14:02:57-08:00	1	admin	leyacuerdo	fechaGaceta	N/A	2008-12-04	creacion de leyacuerdo
+2011-12-08T14:02:57-08:00	1	admin	leyacuerdo	fechaCrear	N/A	2011-12-08 22:02:57 UTC	creacion de leyacuerdo
+2011-12-08T14:02:57-08:00	1	admin	leyacuerdo	fechaMod	N/A	2011-12-08 22:02:57 UTC	creacion de leyacuerdo
+2011-12-08T14:02:57-08:00	1	admin	leyacuerdo	usuarioRes	N/A	1	creacion de leyacuerdo
+2011-12-08T14:02:57-08:00	1	admin	leyacuerdo	usuarioMod	N/A	1	creacion de leyacuerdo
+2011-12-08T14:04:52-08:00	1	admin	user	username	N/A	JAlejandroMatute	creacion de usuario
+2011-12-08T14:04:52-08:00	1	admin	user	email	N/A	toto_007hn@hotmail.com	creacion de usuario
+2011-12-08T14:04:52-08:00	1	admin	user	activo	N/A	false	creacion de usuario
+2011-12-08T14:04:52-08:00	1	admin	user	rol_id	N/A	2	creacion de usuario
+2011-12-08T14:04:52-08:00	1	admin	oip	usuario_id	N/A	2	creacion de oip
+2011-12-08T14:04:52-08:00	1	admin	oip	fechaCrear	N/A	2011-12-08 22:04:51 UTC	creacion de oip
+2011-12-08T14:04:52-08:00	1	admin	oip	fechaMod	N/A	2011-12-08 22:04:51 UTC	creacion de oip
+2011-12-08T14:04:52-08:00	1	admin	oip	usuarioRes	N/A	1	creacion de oip
+2011-12-08T14:04:52-08:00	1	admin	oip	usuarioMod	N/A	1	creacion de oip
+2011-12-08T14:04:52-08:00	1	admin	oip	institucion	N/A	1	creacion de oip
+2011-12-08T14:04:52-08:00	1	admin	oip	pnombre	N/A	Jose	creacion de oip
+2011-12-08T14:04:52-08:00	1	admin	oip	snombre	N/A	Alejandro	creacion de oip
+2011-12-08T14:04:52-08:00	1	admin	oip	papellido	N/A	Matute	creacion de oip
+2011-12-08T14:04:52-08:00	1	admin	oip	sapellido	N/A	Flores	creacion de oip
+2011-12-08T14:04:52-08:00	1	admin	oip	sapellido	N/A	Flores	creacion de oip
+2011-12-08T14:04:52-08:00	1	admin	oip	email	N/A	toto_007hn@hotmail.com	creacion de oip
+2011-12-08T14:04:52-08:00	1	admin	oip	email2	N/A		creacion de oip
+2011-12-08T14:04:52-08:00	1	admin	oip	tlf	N/A		creacion de oip
+2011-12-08T14:12:21-08:00	1	admin	user	activo	false	activar/desactivar usuario 12011-12-08T14:22:52-08:00	0	sistema	mensaje	destinatario_id	N/A	2	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	emisor_id	N/A	0	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	titulo	N/A	Nueva Solicitud de Informacion	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	texto	N/A	{"documento":{"tipoDocumento_id":"1","numero":"0801-1995-23245"},"commit":"Crear Solicitud","authenticity_token":"DrrjVZKJS1bxN6h8OvJYDf1D7Dj+2XE81Z4kK0aN6Z0=","utf8":"\u2713","action":"create","solicitud":{"lugar":"tegucigalpa","descripcion":"blah","institucion_id":"1"},"controller":"solicitud","solicitante":{"telefono":"","genero":"","nombre":"bl","ocupacion_id":"","fax":"","nivel_educativo":"","direccion_postal":"","email":"toto_007hn@hotmail.com"}}	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	fecha	N/A	2011-12-08 22:22:49 UTC	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	expediente_id	N/A		creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	leido	N/A	false	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	borrado	N/A	false	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	document_file_name	N/A		creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	fechaCrear	N/A	2011-12-08 22:22:49 UTC	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	fechaMod	N/A	2011-12-08 22:22:49 UTC	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	usuarioRes	N/A	0	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	usuarioMod	N/A	0	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	destinatario_id	N/A	1	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	emisor_id	N/A	0	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	titulo	N/A	Nueva Solicitud de Informacion	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	texto	N/A	{"documento":{"tipoDocumento_id":"1","numero":"0801-1995-23245"},"commit":"Crear Solicitud","authenticity_token":"DrrjVZKJS1bxN6h8OvJYDf1D7Dj+2XE81Z4kK0aN6Z0=","utf8":"\u2713","action":"create","solicitud":{"lugar":"tegucigalpa","descripcion":"blah","institucion_id":"1"},"controller":"solicitud","solicitante":{"telefono":"","genero":"","nombre":"bl","ocupacion_id":"","fax":"","nivel_educativo":"","direccion_postal":"","email":"toto_007hn@hotmail.com"}}	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	fecha	N/A	2011-12-08 22:22:52 UTC	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	expediente_id	N/A		creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	leido	N/A	false	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	borrado	N/A	false	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	document_file_name	N/A		creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	fechaCrear	N/A	2011-12-08 22:22:52 UTC	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	fechaMod	N/A	2011-12-08 22:22:52 UTC	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	usuarioRes	N/A	0	creacion de institucion
+2011-12-08T14:22:52-08:00	0	sistema	mensaje	usuarioMod	N/A	0	creacion de institucion
+2011-12-08T14:26:51-08:00	2	oip	documento	numero	N/A	0801-1995-23245	creacion de documento
+2011-12-08T14:26:51-08:00	2	oip	documento	fechaCrear	N/A	2011-12-08 22:26:51 UTC	creacion de documento
+2011-12-08T14:26:51-08:00	2	oip	documento	fechaMod	N/A	2011-12-08 22:26:51 UTC	creacion de documento
+2011-12-08T14:26:51-08:00	2	oip	documento	usuarioRes	N/A	2	creacion de documento
+2011-12-08T14:26:51-08:00	2	oip	documento	usuarioMod	N/A	2	creacion de documento
+2011-12-08T14:26:51-08:00	2	oip	documento	tipoDocumento	N/A	1	creacion de documento
+2011-12-08T14:26:51-08:00	2	oip	solicitante	documento_id	N/A	1	creacion de solicitante
+2011-12-08T14:26:51-08:00	2	oip	solicitante	nombre	N/A	bl	creacion de solicitante
+2011-12-08T14:26:51-08:00	2	oip	solicitante	tipo_solicitante	N/A	1	creacion de solicitante
+2011-12-08T14:26:51-08:00	2	oip	solicitante	ocupacion_id	N/A	0	creacion de solicitante
+2011-12-08T14:26:51-08:00	2	oip	solicitante	genero	N/A	N/A	creacion de solicitante
+2011-12-08T14:26:51-08:00	2	oip	solicitante	nivel educativo	N/A	N/A	creacion de solicitante
+2011-12-08T14:26:51-08:00	2	oip	solicitante	telefono	N/A	N/A	creacion de solicitante
+2011-12-08T14:26:51-08:00	2	oip	solicitante	email	N/A	toto_007hn@hotmail.com	creacion de solicitante
+2011-12-08T14:26:51-08:00	2	oip	solicitante	direccion_postal	N/A	N/A	creacion de solicitante
+2011-12-08T14:26:51-08:00	2	oip	solicitante	fax	N/A	N/A	creacion de solicitante
+2011-12-08T14:26:51-08:00	2	oip	solicitante	poder	N/A	N/A	creacion de solicitante
+2011-12-08T14:26:51-08:00	2	oip	solicitante	fechaCrear	N/A	2011-12-08 22:26:51 UTC	creacion de solicitante
+2011-12-08T14:26:51-08:00	2	oip	solicitante	fechaMod	N/A	2011-12-08 22:26:51 UTC	creacion de solicitante
+2011-12-08T14:26:51-08:00	2	oip	solicitante	usuarioRes	N/A	2	creacion de solicitante
+2011-12-08T14:26:51-08:00	2	oip	solicitante	usuarioMod	N/A	2	creacion de solicitante
+2011-12-08T14:26:51-08:00	2	oip	solicitud	descripcion	N/A	blah	creacion de solicitud
+2011-12-08T14:26:51-08:00	2	oip	solicitud	solicitante_id	N/A	1	creacion de solicitud
+2011-12-08T14:26:51-08:00	2	oip	solicitud	lugar	N/A	tegucigalpa	creacion de solicitud
+2011-12-08T14:26:51-08:00	2	oip	solicitud	institucion_id	N/A	1	creacion de solicitud
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	destinatario_id	N/A	2	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	emisor_id	N/A	0	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	titulo	N/A	Nueva Solicitud de Informacion	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	texto	N/A	{"documento":{"tipoDocumento_id":"1","numero":"0801-1995-23245"},"commit":"Crear Solicitud","authenticity_token":"4CWJ7bxCfTkdXAl4QgDEVl92XvIe+tP72j8WdodbxTE=","utf8":"\u2713","action":"create","solicitud":{"lugar":"tegucigalpa","descripcion":"ASDF","institucion_id":"1"},"controller":"solicitud","solicitante":{"telefono":"","genero":"","nombre":"ba","ocupacion_id":"","fax":"","nivel_educativo":"","direccion_postal":"","email":"toto_007hn@hotmail.com"}}	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	fecha	N/A	2011-12-08 22:28:14 UTC	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	expediente_id	N/A		creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	leido	N/A	false	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	borrado	N/A	false	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	document_file_name	N/A		creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	fechaCrear	N/A	2011-12-08 22:28:14 UTC	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	fechaMod	N/A	2011-12-08 22:28:14 UTC	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	usuarioRes	N/A	0	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	usuarioMod	N/A	0	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	destinatario_id	N/A	1	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	emisor_id	N/A	0	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	titulo	N/A	Nueva Solicitud de Informacion	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	texto	N/A	{"documento":{"tipoDocumento_id":"1","numero":"0801-1995-23245"},"commit":"Crear Solicitud","authenticity_token":"4CWJ7bxCfTkdXAl4QgDEVl92XvIe+tP72j8WdodbxTE=","utf8":"\u2713","action":"create","solicitud":{"lugar":"tegucigalpa","descripcion":"ASDF","institucion_id":"1"},"controller":"solicitud","solicitante":{"telefono":"","genero":"","nombre":"ba","ocupacion_id":"","fax":"","nivel_educativo":"","direccion_postal":"","email":"toto_007hn@hotmail.com"}}	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	fecha	N/A	2011-12-08 22:28:17 UTC	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	expediente_id	N/A		creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	leido	N/A	false	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	borrado	N/A	false	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	document_file_name	N/A		creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	fechaCrear	N/A	2011-12-08 22:28:17 UTC	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	fechaMod	N/A	2011-12-08 22:28:17 UTC	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	usuarioRes	N/A	0	creacion de institucion
+2011-12-08T14:28:17-08:00	0	sistema	mensaje	usuarioMod	N/A	0	creacion de institucion
+2011-12-08T14:28:48-08:00	2	oip	documento	numero	N/A	0801-1995-23245	creacion de documento
+2011-12-08T14:28:48-08:00	2	oip	documento	fechaCrear	N/A	2011-12-08 22:28:48 UTC	creacion de documento
+2011-12-08T14:28:48-08:00	2	oip	documento	fechaMod	N/A	2011-12-08 22:28:48 UTC	creacion de documento
+2011-12-08T14:28:48-08:00	2	oip	documento	usuarioRes	N/A	2	creacion de documento
+2011-12-08T14:28:48-08:00	2	oip	documento	usuarioMod	N/A	2	creacion de documento
+2011-12-08T14:28:48-08:00	2	oip	documento	tipoDocumento	N/A	1	creacion de documento
+2011-12-08T14:28:48-08:00	2	oip	solicitante	documento_id	N/A	2	creacion de solicitante
+2011-12-08T14:28:48-08:00	2	oip	solicitante	nombre	N/A	ba	creacion de solicitante
+2011-12-08T14:28:48-08:00	2	oip	solicitante	tipo_solicitante	N/A	1	creacion de solicitante
+2011-12-08T14:28:48-08:00	2	oip	solicitante	ocupacion_id	N/A	0	creacion de solicitante
+2011-12-08T14:28:48-08:00	2	oip	solicitante	genero	N/A	N/A	creacion de solicitante
+2011-12-08T14:28:48-08:00	2	oip	solicitante	nivel educativo	N/A	N/A	creacion de solicitante
+2011-12-08T14:28:48-08:00	2	oip	solicitante	telefono	N/A	N/A	creacion de solicitante
+2011-12-08T14:28:48-08:00	2	oip	solicitante	email	N/A	toto_007hn@hotmail.com	creacion de solicitante
+2011-12-08T14:28:48-08:00	2	oip	solicitante	direccion_postal	N/A	N/A	creacion de solicitante
+2011-12-08T14:28:48-08:00	2	oip	solicitante	fax	N/A	N/A	creacion de solicitante
+2011-12-08T14:28:48-08:00	2	oip	solicitante	poder	N/A	N/A	creacion de solicitante
+2011-12-08T14:28:48-08:00	2	oip	solicitante	fechaCrear	N/A	2011-12-08 22:28:48 UTC	creacion de solicitante
+2011-12-08T14:28:48-08:00	2	oip	solicitante	fechaMod	N/A	2011-12-08 22:28:48 UTC	creacion de solicitante
+2011-12-08T14:28:48-08:00	2	oip	solicitante	usuarioRes	N/A	2	creacion de solicitante
+2011-12-08T14:28:48-08:00	2	oip	solicitante	usuarioMod	N/A	2	creacion de solicitante
+2011-12-08T14:28:48-08:00	2	oip	solicitud	descripcion	N/A	ASDF	creacion de solicitud
+2011-12-08T14:28:48-08:00	2	oip	solicitud	solicitante_id	N/A	2	creacion de solicitud
+2011-12-08T14:28:48-08:00	2	oip	solicitud	lugar	N/A	tegucigalpa	creacion de solicitud
+2011-12-08T14:28:48-08:00	2	oip	solicitud	institucion_id	N/A	1	creacion de solicitud
+2011-12-08T14:28:48-08:00	2	oip	solicitud	fecha	N/A	2011-12-08 22:28:14 UTC	creacion de solicitud
+2011-12-08T14:28:48-08:00	2	oip	solicitud	clasificacion_id	N/A		creacion de solicitud
+2011-12-08T14:28:48-08:00	2	oip	solicitud	expediente_id	N/A	2	creacion de solicitud
+2011-12-08T14:28:48-08:00	2	oip	solicitud	responsable	N/A	2	creacion de solicitud
+2011-12-08T14:28:48-08:00	2	oip	solicitud	numero	N/A	08122011000002	creacion de solicitud
+2011-12-08T14:28:48-08:00	2	oip	solicitud	finalizada	N/A	false	creacion de solicitud
+2011-12-08T14:28:48-08:00	2	oip	solicitud	fechaCrear	N/A	2011-12-08 22:28:48 UTC	creacion de solicitud
+2011-12-08T14:28:48-08:00	2	oip	solicitud	fechaMod	N/A	2011-12-08 22:28:48 UTC	creacion de solicitud
+2011-12-08T14:28:48-08:00	2	oip	solicitud	usuarioRes	N/A	2	creacion de solicitud
+2011-12-08T14:28:48-08:00	2	oip	solicitud	usuarioMod	N/A	2	creacion de solicitud
+2011-12-08T14:29:27-08:00	2	oip	institucion	descripcion	N/A	esto	creacion de institucion
+2011-12-08T14:29:27-08:00	2	oip	institucion	fechaCambio	N/A	2011-12-08 22:29:26 UTC	creacion de institucion
+2011-12-08T14:30:11-08:00	2	oip	institucion	descripcion	N/A	esto	creacion de institucion
+2011-12-08T14:30:11-08:00	2	oip	institucion	fechaCambio	N/A	2011-12-08 22:30:11 UTC	creacion de institucion
+2011-12-08T14:30:11-08:00	2	oip	institucion	expediente_id	N/A	2	creacion de institucion
+2011-12-08T14:30:11-08:00	2	oip	institucion	clasificacion	N/A	publica	creacion de institucion
+2011-12-08T14:30:11-08:00	2	oip	institucion	estado	N/A	En tramite	creacion de institucion
+2011-12-08T14:30:11-08:00	2	oip	institucion	fechaCrear	N/A	2011-12-08 22:30:11 UTC	creacion de institucion
+2011-12-08T14:30:11-08:00	2	oip	institucion	fechaMod	N/A	2011-12-08 22:30:11 UTC	creacion de institucion
+2011-12-08T14:30:11-08:00	2	oip	institucion	usuarioRes	N/A	2	creacion de institucion
+2011-12-08T14:30:11-08:00	2	oip	institucion	usuarioMod	N/A	2	creacion de institucion
+2011-12-08T14:32:24-08:00	2	oip	departamento	descripcion	N/A	bas	creacion de departamento
+2011-12-08T14:32:24-08:00	2	oip	departamento	nombre	N/A	Recursos Humanos	creacion de departamento
+2011-12-08T14:32:24-08:00	2	oip	departamento	fechaCrear	N/A	2011-12-08 22:32:24 UTC	creacion de departamento
+2011-12-08T14:32:24-08:00	2	oip	departamento	fechaMod	N/A	2011-12-08 22:32:24 UTC	creacion de departamento
+2011-12-08T14:32:24-08:00	2	oip	departamento	usuarioRes	N/A	2	creacion de departamento
+2011-12-08T14:32:24-08:00	2	oip	departamento	usuarioMod	N/A	2	creacion de departamento
+2011-12-08T14:32:24-08:00	2	oip	departamento	institucion	N/A	1	creacion de departamento
+2011-12-08T14:32:24-08:00	2	oip	departamento	enlace_id	N/A		creacion de departamento
+2011-12-08T14:37:28-08:00	2	oip	user	username	N/A	JAngelMatute	creacion de usuario
+2011-12-08T14:37:28-08:00	2	oip	user	email	N/A	jmatuteflores@gmail.com	creacion de usuario
+2011-12-08T14:37:28-08:00	2	oip	user	activo	N/A	false	creacion de usuario
+2011-12-08T14:37:28-08:00	2	oip	user	rol_id	N/A	3	creacion de usuario
+2011-12-08T14:37:28-08:00	2	oip	enlace	usuario_id	N/A	3	creacion de enlace
+2011-12-08T14:37:28-08:00	2	oip	enlace	departamento	N/A	1	creacion de enlace
+2011-12-08T14:37:28-08:00	2	oip	enlace	fechaCrear	N/A	2011-12-08 22:37:28 UTC	creacion de enlace
+2011-12-08T14:37:28-08:00	2	oip	enlace	fechaMod	N/A	2011-12-08 22:37:28 UTC	creacion de enlace
+2011-12-08T14:37:28-08:00	2	oip	enlace	usuarioRes	N/A	2	creacion de enlace
+2011-12-08T14:37:28-08:00	2	oip	enlace	usuarioMod	N/A	2	creacion de enlace
+2011-12-08T14:37:28-08:00	2	oip	enlace	institucion	N/A	1	creacion de enlace
+2011-12-08T14:37:28-08:00	2	oip	enlace	pnombre	N/A	Juan	creacion de enlace
+2011-12-08T14:37:28-08:00	2	oip	enlace	snombre	N/A	Angel	creacion de enlace
+2011-12-08T14:37:28-08:00	2	oip	enlace	papellido	N/A	Matute	creacion de enlace
+2011-12-08T14:37:28-08:00	2	oip	enlace	sapellido	N/A	Flores	creacion de enlace
+2011-12-08T14:37:28-08:00	2	oip	enlace	sapellido	N/A	Flores	creacion de enlace
+2011-12-08T14:37:28-08:00	2	oip	enlace	email	N/A	jmatuteflores@gmail.com	creacion de enlace
+2011-12-08T14:37:28-08:00	2	oip	enlace	email2	N/A		creacion de enlace
+2011-12-08T14:37:28-08:00	2	oip	enlace	tlf	N/A		creacion de enlace
+2011-12-08T14:37:57-08:00	2	oip	user	activo	false	true	activar/desactivar usuario 1
+2011-12-08T14:40:34-08:00	2	oip	asignacion	descripcion	N/A	blah	creacion de asignacion
+2011-12-08T14:40:34-08:00	2	oip	asignacion	enlace_id	N/A	3	creacion de asignacion
+2011-12-08T14:40:34-08:00	2	oip	asignacion	fechaInic	N/A	2011-12-08 22:40:31 UTC	creacion de asignacion
+2011-12-08T14:40:34-08:00	2	oip	asignacion	expediente_id	N/A	2	creacion de asignacion
+2011-12-08T14:40:34-08:00	2	oip	asignacion	fechaCrear	N/A	2011-12-08 22:40:31 UTC	creacion de asignacion
+2011-12-08T14:40:34-08:00	2	oip	asignacion	fechaMod	N/A	2011-12-08 22:40:31 UTC	creacion de asignacion
+2011-12-08T14:40:34-08:00	2	oip	asignacion	usuarioRes	N/A	2	creacion de asignacion
+2011-12-08T14:40:34-08:00	2	oip	asignacion	usuarioMod	N/A	2	creacion de asignacion
+2011-12-08T14:40:34-08:00	2	oip	asignacion	plazo	N/A	5	creacion de asignacion
+2011-12-08T14:40:34-08:00	2	oip	asignacion	completada	N/A	false	creacion de asignacion
+2011-12-08T15:25:10-08:00	1	admin	user	username	N/A	MGustavoAndino	creacion de usuario
+2011-12-08T15:25:10-08:00	1	admin	user	email	N/A	mikeandinog@gmail.com	creacion de usuario
+2011-12-08T15:25:10-08:00	1	admin	user	activo	N/A	false	creacion de usuario
+2011-12-08T15:25:10-08:00	1	admin	user	rol_id	N/A	2	creacion de usuario
+2011-12-08T15:25:10-08:00	1	admin	oip	usuario_id	N/A	4	creacion de oip
+2011-12-08T15:25:10-08:00	1	admin	oip	fechaCrear	N/A	2011-12-08 23:25:09 UTC	creacion de oip
+2011-12-08T15:25:10-08:00	1	admin	oip	fechaMod	N/A	2011-12-08 23:25:09 UTC	creacion de oip
+2011-12-08T15:25:10-08:00	1	admin	oip	usuarioRes	N/A	1	creacion de oip
+2011-12-08T15:25:10-08:00	1	admin	oip	usuarioMod	N/A	1	creacion de oip
+2011-12-08T15:25:10-08:00	1	admin	oip	institucion	N/A	1	creacion de oip
+2011-12-08T15:25:10-08:00	1	admin	oip	pnombre	N/A	Mike	creacion de oip
+2011-12-08T15:25:10-08:00	1	admin	oip	snombre	N/A	Gustavo	creacion de oip
+2011-12-08T15:25:10-08:00	1	admin	oip	papellido	N/A	Andino	creacion de oip
+2011-12-08T15:25:10-08:00	1	admin	oip	sapellido	N/A	Borjas	creacion de oip
+2011-12-08T15:25:10-08:00	1	admin	oip	sapellido	N/A	Borjas	creacion de oip
+2011-12-08T15:25:10-08:00	1	admin	oip	email	N/A	mikeandinog@gmail.com	creacion de oip
+2011-12-08T15:25:10-08:00	1	admin	oip	email2	N/A		creacion de oip
+2011-12-08T15:25:10-08:00	1	admin	oip	tlf	N/A	23222222	creacion de oip
+2011-12-08T15:25:44-08:00	1	admin	user	activo	false	activar/desactivar usuario 2
+2011-12-08T15:27:30-08:00	0	sistema	mensaje	destinatario_id	N/A	2	creacion de institucion
+2011-12-08T15:27:30-08:00	0	sistema	mensaje	emisor_id	N/A	0	creacion de institucion
+2011-12-08T15:27:30-08:00	0	sistema	mensaje	titulo	N/A	Nueva Solicitud de Informacion	creacion de institucion
+2011-12-08T15:27:30-08:00	0	sistema	mensaje	texto	N/A	{"documento":{"tipoDocumento_id":"1","numero":"0801-1995-23245"},"commit":"Crear Solicitud","authenticity_token":"JAhiW3bbCCCL7HpDhtz0qMyo1Dbw2Bb2mvi4oP1cqz8=","utf8":"\u2713","action":"create","solicitud":{"lugar":"tegucigalpa","descripcion":"conseguime esto vos","institucion_id":"1"},"controller":"solicitud","solicitante":{"telefono":"","genero":"","nombre":"Edwin Hernandez","ocupacion_id":"","fax":"","nivel_educativo":"","direccion_postal":"","email":"toto_007hn@hotmail.com"}}	creacion de institucion
+2011-12-08T15:27:30-08:00	0	sistema	mensaje	fecha	N/A	2011-12-08 23:27:28 UTC	creacion de institucion
+2011-12-08T15:27:30-08:00	0	sistema	mensaje	expediente_id	N/A		creacion de institucion
+2011-12-08T15:27:30-08:00	0	sistema	mensaje	leido	N/A	false	creacion de institucion
+2011-12-08T15:27:30-08:00	0	sistema	mensaje	borrado	N/A	false	creacion de institucion
+2011-12-08T15:27:30-08:00	0	sistema	mensaje	document_file_name	N/A		creacion de institucion
+2011-12-08T15:27:30-08:00	0	sistema	mensaje	fechaCrear	N/A	2011-12-08 23:27:28 UTC	creacion de institucion
+2011-12-08T15:27:30-08:00	0	sistema	mensaje	fechaMod	N/A	2011-12-08 23:27:28 UTC	creacion de institucion
+2011-12-08T15:27:30-08:00	0	sistema	mensaje	usuarioRes	N/A	0	creacion de institucion
+2011-12-08T15:27:30-08:00	0	sistema	mensaje	usuarioMod	N/A	0	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	destinatario_id	N/A	4	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	emisor_id	N/A	0	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	titulo	N/A	Nueva Solicitud de Informacion	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	texto	N/A	{"documento":{"tipoDocumento_id":"1","numero":"0801-1995-23245"},"commit":"Crear Solicitud","authenticity_token":"JAhiW3bbCCCL7HpDhtz0qMyo1Dbw2Bb2mvi4oP1cqz8=","utf8":"\u2713","action":"create","solicitud":{"lugar":"tegucigalpa","descripcion":"conseguime esto vos","institucion_id":"1"},"controller":"solicitud","solicitante":{"telefono":"","genero":"","nombre":"Edwin Hernandez","ocupacion_id":"","fax":"","nivel_educativo":"","direccion_postal":"","email":"toto_007hn@hotmail.com"}}	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	fecha	N/A	2011-12-08 23:27:30 UTC	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	expediente_id	N/A		creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	leido	N/A	false	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	borrado	N/A	false	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	document_file_name	N/A		creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	fechaCrear	N/A	2011-12-08 23:27:30 UTC	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	fechaMod	N/A	2011-12-08 23:27:30 UTC	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	usuarioRes	N/A	0	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	usuarioMod	N/A	0	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	destinatario_id	N/A	1	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	emisor_id	N/A	0	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	titulo	N/A	Nueva Solicitud de Informacion	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	texto	N/A	{"documento":{"tipoDocumento_id":"1","numero":"0801-1995-23245"},"commit":"Crear Solicitud","authenticity_token":"JAhiW3bbCCCL7HpDhtz0qMyo1Dbw2Bb2mvi4oP1cqz8=","utf8":"\u2713","action":"create","solicitud":{"lugar":"tegucigalpa","descripcion":"conseguime esto vos","institucion_id":"1"},"controller":"solicitud","solicitante":{"telefono":"","genero":"","nombre":"Edwin Hernandez","ocupacion_id":"","fax":"","nivel_educativo":"","direccion_postal":"","email":"toto_007hn@hotmail.com"}}	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	fecha	N/A	2011-12-08 23:27:33 UTC	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	expediente_id	N/A		creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	leido	N/A	false	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	borrado	N/A	false	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	document_file_name	N/A		creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	fechaCrear	N/A	2011-12-08 23:27:33 UTC	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	fechaMod	N/A	2011-12-08 23:27:33 UTC	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	usuarioRes	N/A	0	creacion de institucion
+2011-12-08T15:27:33-08:00	0	sistema	mensaje	usuarioMod	N/A	0	creacion de institucion
+2011-12-08T15:28:18-08:00	4	oip	documento	numero	N/A	0801-1995-23245	creacion de documento
+2011-12-08T15:28:18-08:00	4	oip	documento	fechaCrear	N/A	2011-12-08 23:28:18 UTC	creacion de documento
+2011-12-08T15:28:18-08:00	4	oip	documento	fechaMod	N/A	2011-12-08 23:28:18 UTC	creacion de documento
+2011-12-08T15:28:18-08:00	4	oip	documento	usuarioRes	N/A	4	creacion de documento
+2011-12-08T15:28:18-08:00	4	oip	documento	usuarioMod	N/A	4	creacion de documento
+2011-12-08T15:28:18-08:00	4	oip	documento	tipoDocumento	N/A	1	creacion de documento
+2011-12-08T15:28:18-08:00	4	oip	solicitante	documento_id	N/A	3	creacion de solicitante
+2011-12-08T15:28:18-08:00	4	oip	solicitante	nombre	N/A	Edwin Hernandez	creacion de solicitante
+2011-12-08T15:28:18-08:00	4	oip	solicitante	tipo_solicitante	N/A	1	creacion de solicitante
+2011-12-08T15:28:18-08:00	4	oip	solicitante	ocupacion_id	N/A	0	creacion de solicitante
+2011-12-08T15:28:18-08:00	4	oip	solicitante	genero	N/A	N/A	creacion de solicitante
+2011-12-08T15:28:18-08:00	4	oip	solicitante	nivel educativo	N/A	N/A	creacion de solicitante
+2011-12-08T15:28:18-08:00	4	oip	solicitante	telefono	N/A	N/A	creacion de solicitante
+2011-12-08T15:28:18-08:00	4	oip	solicitante	email	N/A	toto_007hn@hotmail.com	creacion de solicitante
+2011-12-08T15:28:18-08:00	4	oip	solicitante	direccion_postal	N/A	N/A	creacion de solicitante
+2011-12-08T15:28:18-08:00	4	oip	solicitante	fax	N/A	N/A	creacion de solicitante
+2011-12-08T15:28:18-08:00	4	oip	solicitante	poder	N/A	N/A	creacion de solicitante
+2011-12-08T15:28:18-08:00	4	oip	solicitante	fechaCrear	N/A	2011-12-08 23:28:18 UTC	creacion de solicitante
+2011-12-08T15:28:18-08:00	4	oip	solicitante	fechaMod	N/A	2011-12-08 23:28:18 UTC	creacion de solicitante
+2011-12-08T15:28:18-08:00	4	oip	solicitante	usuarioRes	N/A	4	creacion de solicitante
+2011-12-08T15:28:18-08:00	4	oip	solicitante	usuarioMod	N/A	4	creacion de solicitante
+2011-12-08T15:28:18-08:00	4	oip	solicitud	descripcion	N/A	conseguime esto vos	creacion de solicitud
+2011-12-08T15:28:18-08:00	4	oip	solicitud	solicitante_id	N/A	3	creacion de solicitud
+2011-12-08T15:28:18-08:00	4	oip	solicitud	lugar	N/A	tegucigalpa	creacion de solicitud
+2011-12-08T15:28:18-08:00	4	oip	solicitud	institucion_id	N/A	1	creacion de solicitud
+2011-12-08T15:28:18-08:00	4	oip	solicitud	fecha	N/A	2011-12-08 23:27:30 UTC	creacion de solicitud
+2011-12-08T15:28:18-08:00	4	oip	solicitud	clasificacion_id	N/A		creacion de solicitud
+2011-12-08T15:28:18-08:00	4	oip	solicitud	expediente_id	N/A	3	creacion de solicitud
+2011-12-08T15:28:18-08:00	4	oip	solicitud	responsable	N/A	4	creacion de solicitud
+2011-12-08T15:28:18-08:00	4	oip	solicitud	numero	N/A	08122011000003	creacion de solicitud
+2011-12-08T15:28:18-08:00	4	oip	solicitud	finalizada	N/A	false	creacion de solicitud
+2011-12-08T15:28:18-08:00	4	oip	solicitud	fechaCrear	N/A	2011-12-08 23:28:18 UTC	creacion de solicitud
+2011-12-08T15:28:18-08:00	4	oip	solicitud	fechaMod	N/A	2011-12-08 23:28:18 UTC	creacion de solicitud
+2011-12-08T15:28:18-08:00	4	oip	solicitud	usuarioRes	N/A	4	creacion de solicitud
+2011-12-08T15:28:18-08:00	4	oip	solicitud	usuarioMod	N/A	4	creacion de solicitud
+2011-12-08T15:34:32-08:00	4	oip	justificacion	descripcion	N/A	hahahah	creacion de justificacion
+2011-12-08T15:34:32-08:00	4	oip	justificacion	fechaCambio	N/A	2011-12-08 23:34:29 UTC	creacion de justificacion
+2011-12-08T15:34:32-08:00	4	oip	justificacion	expediente_id	N/A	3	creacion de justificacion
+2011-12-08T15:34:32-08:00	4	oip	justificacion	clasificacion	N/A	clasificada	creacion de justificacion
+2011-12-08T15:34:32-08:00	4	oip	justificacion	estado	N/A	Finalizado Informacion Clasificada	creacion de justificacion
+2011-12-08T15:34:32-08:00	4	oip	justificacion	fechaCrear	N/A	2011-12-08 23:34:29 UTC	creacion de justificacion
+2011-12-08T15:34:32-08:00	4	oip	justificacion	fechaMod	N/A	2011-12-08 23:34:29 UTC	creacion de justificacion
+2011-12-08T15:34:32-08:00	4	oip	justificacion	usuarioRes	N/A	4	creacion de justificacion
+2011-12-08T15:34:32-08:00	4	oip	justificacion	usuarioMod	N/A	4	creacion de justificacion
+2011-12-08T18:04:40-08:00	0	sistema	mensaje	destinatario_id	N/A	2	creacion de institucion
+2011-12-08T18:04:40-08:00	0	sistema	mensaje	emisor_id	N/A	0	creacion de institucion
+2011-12-08T18:04:40-08:00	0	sistema	mensaje	titulo	N/A	Nueva Solicitud de Informacion	creacion de institucion
+2011-12-08T18:04:40-08:00	0	sistema	mensaje	texto	N/A	{"documento":{"tipoDocumento_id":"1","numero":"0801-1995-23245"},"commit":"Crear Solicitud","authenticity_token":"gMH1iQZSgCNECupDr585ZnmpNNVh/A9B7FZ4lynQXHA=","utf8":"\u2713","action":"create","solicitud":{"lugar":"tegucigalpa","descripcion":"esta debe de cerrarse","institucion_id":"1"},"controller":"solicitud","solicitante":{"telefono":"","genero":"","nombre":"solicitanteNatural","ocupacion_id":"","fax":"","nivel_educativo":"","direccion_postal":"","email":"toto_007hn@hotmail.com"}}	creacion de institucion
+2011-12-08T18:04:40-08:00	0	sistema	mensaje	fecha	N/A	2011-12-09 02:04:38 UTC	creacion de institucion
+2011-12-08T18:04:40-08:00	0	sistema	mensaje	expediente_id	N/A		creacion de institucion
+2011-12-08T18:04:40-08:00	0	sistema	mensaje	leido	N/A	false	creacion de institucion
+2011-12-08T18:04:40-08:00	0	sistema	mensaje	borrado	N/A	false	creacion de institucion
+2011-12-08T18:04:40-08:00	0	sistema	mensaje	document_file_name	N/A		creacion de institucion
+2011-12-08T18:04:40-08:00	0	sistema	mensaje	fechaCrear	N/A	2011-12-09 02:04:38 UTC	creacion de institucion
+2011-12-08T18:04:40-08:00	0	sistema	mensaje	fechaMod	N/A	2011-12-09 02:04:38 UTC	creacion de institucion
+2011-12-08T18:04:40-08:00	0	sistema	mensaje	usuarioRes	N/A	0	creacion de institucion
+2011-12-08T18:04:40-08:00	0	sistema	mensaje	usuarioMod	N/A	0	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	destinatario_id	N/A	4	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	emisor_id	N/A	0	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	titulo	N/A	Nueva Solicitud de Informacion	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	texto	N/A	{"documento":{"tipoDocumento_id":"1","numero":"0801-1995-23245"},"commit":"Crear Solicitud","authenticity_token":"gMH1iQZSgCNECupDr585ZnmpNNVh/A9B7FZ4lynQXHA=","utf8":"\u2713","action":"create","solicitud":{"lugar":"tegucigalpa","descripcion":"esta debe de cerrarse","institucion_id":"1"},"controller":"solicitud","solicitante":{"telefono":"","genero":"","nombre":"solicitanteNatural","ocupacion_id":"","fax":"","nivel_educativo":"","direccion_postal":"","email":"toto_007hn@hotmail.com"}}	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	fecha	N/A	2011-12-09 02:04:40 UTC	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	expediente_id	N/A		creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	leido	N/A	false	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	borrado	N/A	false	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	document_file_name	N/A		creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	fechaCrear	N/A	2011-12-09 02:04:40 UTC	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	fechaMod	N/A	2011-12-09 02:04:40 UTC	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	usuarioRes	N/A	0	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	usuarioMod	N/A	0	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	destinatario_id	N/A	1	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	emisor_id	N/A	0	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	titulo	N/A	Nueva Solicitud de Informacion	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	texto	N/A	{"documento":{"tipoDocumento_id":"1","numero":"0801-1995-23245"},"commit":"Crear Solicitud","authenticity_token":"gMH1iQZSgCNECupDr585ZnmpNNVh/A9B7FZ4lynQXHA=","utf8":"\u2713","action":"create","solicitud":{"lugar":"tegucigalpa","descripcion":"esta debe de cerrarse","institucion_id":"1"},"controller":"solicitud","solicitante":{"telefono":"","genero":"","nombre":"solicitanteNatural","ocupacion_id":"","fax":"","nivel_educativo":"","direccion_postal":"","email":"toto_007hn@hotmail.com"}}	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	fecha	N/A	2011-12-09 02:04:42 UTC	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	expediente_id	N/A		creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	leido	N/A	false	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	borrado	N/A	false	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	document_file_name	N/A		creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	fechaCrear	N/A	2011-12-09 02:04:42 UTC	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	fechaMod	N/A	2011-12-09 02:04:42 UTC	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	usuarioRes	N/A	0	creacion de institucion
+2011-12-08T18:04:42-08:00	0	sistema	mensaje	usuarioMod	N/A	0	creacion de institucion
+2011-12-08T18:05:41-08:00	4	oip	documento	numero	N/A	0801-1995-23245	creacion de documento
+2011-12-08T18:05:41-08:00	4	oip	documento	fechaCrear	N/A	2011-12-09 02:05:41 UTC	creacion de documento
+2011-12-08T18:05:41-08:00	4	oip	documento	fechaMod	N/A	2011-12-09 02:05:41 UTC	creacion de documento
+2011-12-08T18:05:41-08:00	4	oip	documento	usuarioRes	N/A	4	creacion de documento
+2011-12-08T18:05:41-08:00	4	oip	documento	usuarioMod	N/A	4	creacion de documento
+2011-12-08T18:05:41-08:00	4	oip	documento	tipoDocumento	N/A	1	creacion de documento
+2011-12-08T18:05:41-08:00	4	oip	solicitante	documento_id	N/A	4	creacion de solicitante
+2011-12-08T18:05:41-08:00	4	oip	solicitante	nombre	N/A	solicitanteNatural	creacion de solicitante
+2011-12-08T18:05:41-08:00	4	oip	solicitante	tipo_solicitante	N/A	1	creacion de solicitante
+2011-12-08T18:05:41-08:00	4	oip	solicitante	ocupacion_id	N/A	0	creacion de solicitante
+2011-12-08T18:05:41-08:00	4	oip	solicitante	genero	N/A	N/A	creacion de solicitante
+2011-12-08T18:05:41-08:00	4	oip	solicitante	nivel educativo	N/A	N/A	creacion de solicitante
+2011-12-08T18:05:41-08:00	4	oip	solicitante	telefono	N/A	N/A	creacion de solicitante
+2011-12-08T18:05:41-08:00	4	oip	solicitante	email	N/A	toto_007hn@hotmail.com	creacion de solicitante
+2011-12-08T18:05:41-08:00	4	oip	solicitante	direccion_postal	N/A	N/A	creacion de solicitante
+2011-12-08T18:05:41-08:00	4	oip	solicitante	fax	N/A	N/A	creacion de solicitante
+2011-12-08T18:05:41-08:00	4	oip	solicitante	poder	N/A	N/A	creacion de solicitante
+2011-12-08T18:05:41-08:00	4	oip	solicitante	fechaCrear	N/A	2011-12-09 02:05:41 UTC	creacion de solicitante
+2011-12-08T18:05:41-08:00	4	oip	solicitante	fechaMod	N/A	2011-12-09 02:05:41 UTC	creacion de solicitante
+2011-12-08T18:05:41-08:00	4	oip	solicitante	usuarioRes	N/A	4	creacion de solicitante
+2011-12-08T18:05:41-08:00	4	oip	solicitante	usuarioMod	N/A	4	creacion de solicitante
+2011-12-08T18:05:41-08:00	4	oip	solicitud	descripcion	N/A	esta debe de cerrarse	creacion de solicitud
+2011-12-08T18:05:41-08:00	4	oip	solicitud	solicitante_id	N/A	4	creacion de solicitud
+2011-12-08T18:05:41-08:00	4	oip	solicitud	lugar	N/A	tegucigalpa	creacion de solicitud
+2011-12-08T18:05:41-08:00	4	oip	solicitud	institucion_id	N/A	1	creacion de solicitud
+2011-12-08T18:05:41-08:00	4	oip	solicitud	fecha	N/A	2011-12-09 02:04:40 UTC	creacion de solicitud
+2011-12-08T18:05:41-08:00	4	oip	solicitud	clasificacion_id	N/A		creacion de solicitud
+2011-12-08T18:05:41-08:00	4	oip	solicitud	expediente_id	N/A	4	creacion de solicitud
+2011-12-08T18:05:41-08:00	4	oip	solicitud	responsable	N/A	4	creacion de solicitud
+2011-12-08T18:05:41-08:00	4	oip	solicitud	numero	N/A	08122011000004	creacion de solicitud
+2011-12-08T18:05:41-08:00	4	oip	solicitud	finalizada	N/A	false	creacion de solicitud
+2011-12-08T18:05:41-08:00	4	oip	solicitud	fechaCrear	N/A	2011-12-09 02:05:41 UTC	creacion de solicitud
+2011-12-08T18:05:41-08:00	4	oip	solicitud	fechaMod	N/A	2011-12-09 02:05:41 UTC	creacion de solicitud
+2011-12-08T18:05:41-08:00	4	oip	solicitud	usuarioRes	N/A	4	creacion de solicitud
+2011-12-08T18:05:41-08:00	4	oip	solicitud	usuarioMod	N/A	4	creacion de solicitud
+2011-12-08T18:05:52-08:00	4	oip	justificacion	descripcion	N/A	esta debe cerrarse	creacion de justificacion
+2011-12-08T18:05:52-08:00	4	oip	justificacion	fechaCambio	N/A	2011-12-09 02:05:52 UTC	creacion de justificacion
+2011-12-08T18:05:52-08:00	4	oip	justificacion	expediente_id	N/A	4	creacion de justificacion
+2011-12-08T18:05:52-08:00	4	oip	justificacion	clasificacion	N/A	publica	creacion de justificacion
+2011-12-08T18:05:52-08:00	4	oip	justificacion	estado	N/A	En tramite	creacion de justificacion
+2011-12-08T18:05:52-08:00	4	oip	justificacion	fechaCrear	N/A	2011-12-09 02:05:52 UTC	creacion de justificacion
+2011-12-08T18:05:52-08:00	4	oip	justificacion	fechaMod	N/A	2011-12-09 02:05:52 UTC	creacion de justificacion
+2011-12-08T18:05:52-08:00	4	oip	justificacion	usuarioRes	N/A	4	creacion de justificacion
+2011-12-08T18:05:52-08:00	4	oip	justificacion	usuarioMod	N/A	4	creacion de justificacion
+2011-12-12T15:43:39-08:00	0	sistema	mensaje	destinatario_id	N/A	2	creacion de institucion
+2011-12-12T15:43:39-08:00	0	sistema	mensaje	emisor_id	N/A	0	creacion de institucion
+2011-12-12T15:43:39-08:00	0	sistema	mensaje	titulo	N/A	Nueva Solicitud de Informacion	creacion de institucion
+2011-12-12T15:43:39-08:00	0	sistema	mensaje	texto	N/A	{"documento":{"tipoDocumento_id":"1","numero":"0801-1995-23245"},"commit":"Crear Solicitud","authenticity_token":"U9Lqf4iuPRTmPMN0LZcLW3PVZuHLYXFTSl8OaLbkDi0=","utf8":"\u2713","action":"create","solicitud":{"lugar":"tegucigalpa","descripcion":"tiene que terminar","institucion_id":"1"},"controller":"solicitud","solicitante":{"telefono":"","genero":"","nombre":"asdfasdfa","ocupacion_id":"","fax":"","nivel_educativo":"","direccion_postal":"","email":"toto_007hn@hotmail.com"}}	creacion de institucion
+2011-12-12T15:43:39-08:00	0	sistema	mensaje	fecha	N/A	2011-12-12 23:43:33 UTC	creacion de institucion
+2011-12-12T15:43:39-08:00	0	sistema	mensaje	expediente_id	N/A		creacion de institucion
+2011-12-12T15:43:39-08:00	0	sistema	mensaje	leido	N/A	false	creacion de institucion
+2011-12-12T15:43:39-08:00	0	sistema	mensaje	borrado	N/A	false	creacion de institucion
+2011-12-12T15:43:39-08:00	0	sistema	mensaje	document_file_name	N/A		creacion de institucion
+2011-12-12T15:43:39-08:00	0	sistema	mensaje	fechaCrear	N/A	2011-12-12 23:43:33 UTC	creacion de institucion
+2011-12-12T15:43:39-08:00	0	sistema	mensaje	fechaMod	N/A	2011-12-12 23:43:33 UTC	creacion de institucion
+2011-12-12T15:43:39-08:00	0	sistema	mensaje	usuarioRes	N/A	0	creacion de institucion
+2011-12-12T15:43:39-08:00	0	sistema	mensaje	usuarioMod	N/A	0	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	destinatario_id	N/A	4	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	emisor_id	N/A	0	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	titulo	N/A	Nueva Solicitud de Informacion	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	texto	N/A	{"documento":{"tipoDocumento_id":"1","numero":"0801-1995-23245"},"commit":"Crear Solicitud","authenticity_token":"U9Lqf4iuPRTmPMN0LZcLW3PVZuHLYXFTSl8OaLbkDi0=","utf8":"\u2713","action":"create","solicitud":{"lugar":"tegucigalpa","descripcion":"tiene que terminar","institucion_id":"1"},"controller":"solicitud","solicitante":{"telefono":"","genero":"","nombre":"asdfasdfa","ocupacion_id":"","fax":"","nivel_educativo":"","direccion_postal":"","email":"toto_007hn@hotmail.com"}}	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	fecha	N/A	2011-12-12 23:43:39 UTC	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	expediente_id	N/A		creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	leido	N/A	false	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	borrado	N/A	false	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	document_file_name	N/A		creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	fechaCrear	N/A	2011-12-12 23:43:39 UTC	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	fechaMod	N/A	2011-12-12 23:43:39 UTC	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	usuarioRes	N/A	0	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	usuarioMod	N/A	0	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	destinatario_id	N/A	1	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	emisor_id	N/A	0	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	titulo	N/A	Nueva Solicitud de Informacion	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	texto	N/A	{"documento":{"tipoDocumento_id":"1","numero":"0801-1995-23245"},"commit":"Crear Solicitud","authenticity_token":"U9Lqf4iuPRTmPMN0LZcLW3PVZuHLYXFTSl8OaLbkDi0=","utf8":"\u2713","action":"create","solicitud":{"lugar":"tegucigalpa","descripcion":"tiene que terminar","institucion_id":"1"},"controller":"solicitud","solicitante":{"telefono":"","genero":"","nombre":"asdfasdfa","ocupacion_id":"","fax":"","nivel_educativo":"","direccion_postal":"","email":"toto_007hn@hotmail.com"}}	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	fecha	N/A	2011-12-12 23:43:41 UTC	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	expediente_id	N/A		creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	leido	N/A	false	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	borrado	N/A	false	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	document_file_name	N/A		creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	fechaCrear	N/A	2011-12-12 23:43:41 UTC	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	fechaMod	N/A	2011-12-12 23:43:41 UTC	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	usuarioRes	N/A	0	creacion de institucion
+2011-12-12T15:43:41-08:00	0	sistema	mensaje	usuarioMod	N/A	0	creacion de institucion
+2011-12-12T15:44:06-08:00	1	admin	user	activo	true	activar/desactivar usuario 2
+2011-12-12T15:44:06-08:00	1	admin	solicitud	responsable	4	1	transpasar responsabilidad de solicitudes
+2011-12-12T15:47:21-08:00	2	oip	documento	numero	N/A	0801-1995-23245	creacion de documento
+2011-12-12T15:47:21-08:00	2	oip	documento	fechaCrear	N/A	2011-12-12 23:47:21 UTC	creacion de documento
+2011-12-12T15:47:21-08:00	2	oip	documento	fechaMod	N/A	2011-12-12 23:47:21 UTC	creacion de documento
+2011-12-12T15:47:21-08:00	2	oip	documento	usuarioRes	N/A	2	creacion de documento
+2011-12-12T15:47:21-08:00	2	oip	documento	usuarioMod	N/A	2	creacion de documento
+2011-12-12T15:47:21-08:00	2	oip	documento	tipoDocumento	N/A	1	creacion de documento
+2011-12-12T15:47:22-08:00	2	oip	solicitante	documento_id	N/A	5	creacion de solicitante
+2011-12-12T15:47:22-08:00	2	oip	solicitante	nombre	N/A	asdfasdfa	creacion de solicitante
+2011-12-12T15:47:22-08:00	2	oip	solicitante	tipo_solicitante	N/A	1	creacion de solicitante
+2011-12-12T15:47:22-08:00	2	oip	solicitante	ocupacion_id	N/A	0	creacion de solicitante
+2011-12-12T15:47:22-08:00	2	oip	solicitante	genero	N/A	N/A	creacion de solicitante
+2011-12-12T15:47:22-08:00	2	oip	solicitante	nivel educativo	N/A	N/A	creacion de solicitante
+2011-12-12T15:47:22-08:00	2	oip	solicitante	telefono	N/A	N/A	creacion de solicitante
+2011-12-12T15:47:22-08:00	2	oip	solicitante	email	N/A	toto_007hn@hotmail.com	creacion de solicitante
+2011-12-12T15:47:22-08:00	2	oip	solicitante	direccion_postal	N/A	N/A	creacion de solicitante
+2011-12-12T15:47:22-08:00	2	oip	solicitante	fax	N/A	N/A	creacion de solicitante
+2011-12-12T15:47:22-08:00	2	oip	solicitante	poder	N/A	N/A	creacion de solicitante
+2011-12-12T15:47:22-08:00	2	oip	solicitante	fechaCrear	N/A	2011-12-12 23:47:22 UTC	creacion de solicitante
+2011-12-12T15:47:22-08:00	2	oip	solicitante	fechaMod	N/A	2011-12-12 23:47:22 UTC	creacion de solicitante
+2011-12-12T15:47:22-08:00	2	oip	solicitante	usuarioRes	N/A	2	creacion de solicitante
+2011-12-12T15:47:22-08:00	2	oip	solicitante	usuarioMod	N/A	2	creacion de solicitante
+2011-12-12T15:47:22-08:00	2	oip	solicitud	descripcion	N/A	tiene que terminar	creacion de solicitud
+2011-12-12T15:47:22-08:00	2	oip	solicitud	solicitante_id	N/A	5	creacion de solicitud
+2011-12-12T15:47:22-08:00	2	oip	solicitud	lugar	N/A	tegucigalpa	creacion de solicitud
+2011-12-12T15:47:22-08:00	2	oip	solicitud	institucion_id	N/A	1	creacion de solicitud
+2011-12-12T15:47:22-08:00	2	oip	solicitud	fecha	N/A	2011-12-12 23:43:33 UTC	creacion de solicitud
+2011-12-12T15:47:22-08:00	2	oip	solicitud	clasificacion_id	N/A		creacion de solicitud
+2011-12-12T15:47:22-08:00	2	oip	solicitud	expediente_id	N/A	5	creacion de solicitud
+2011-12-12T15:47:22-08:00	2	oip	solicitud	responsable	N/A	2	creacion de solicitud
+2011-12-12T15:47:22-08:00	2	oip	solicitud	numero	N/A	12122011000005	creacion de solicitud
+2011-12-12T15:47:22-08:00	2	oip	solicitud	finalizada	N/A	false	creacion de solicitud
+2011-12-12T15:47:22-08:00	2	oip	solicitud	fechaCrear	N/A	2011-12-12 23:47:22 UTC	creacion de solicitud
+2011-12-12T15:47:22-08:00	2	oip	solicitud	fechaMod	N/A	2011-12-12 23:47:22 UTC	creacion de solicitud
+2011-12-12T15:47:22-08:00	2	oip	solicitud	usuarioRes	N/A	2	creacion de solicitud
+2011-12-12T15:47:22-08:00	2	oip	solicitud	usuarioMod	N/A	2	creacion de solicitud
+2011-12-12T15:47:58-08:00	2	oip	justificacion	descripcion	N/A	debe morir!	creacion de justificacion
+2011-12-12T15:47:58-08:00	2	oip	justificacion	fechaCambio	N/A	2011-12-12 23:47:58 UTC	creacion de justificacion
+2011-12-12T15:47:58-08:00	2	oip	justificacion	expediente_id	N/A	5	creacion de justificacion
+2011-12-12T15:47:58-08:00	2	oip	justificacion	clasificacion	N/A	publica	creacion de justificacion
+2011-12-12T15:47:58-08:00	2	oip	justificacion	estado	N/A	En tramite	creacion de justificacion
+2011-12-12T15:47:58-08:00	2	oip	justificacion	fechaCrear	N/A	2011-12-12 23:47:58 UTC	creacion de justificacion
+2011-12-12T15:47:58-08:00	2	oip	justificacion	fechaMod	N/A	2011-12-12 23:47:58 UTC	creacion de justificacion
+2011-12-12T15:47:58-08:00	2	oip	justificacion	usuarioRes	N/A	2	creacion de justificacion
+2011-12-12T15:47:58-08:00	2	oip	justificacion	usuarioMod	N/A	2	creacion de justificacion
